@@ -1,0 +1,33 @@
+Mixins are like one big variable with multiple lines of code that you can plop into your scss with just one line of code.  The power of them is that you can change the mixin and that change will be implemented everywhere you've included the mix in.
+
+This is how you write it, in your mixins partial:
+
+@mixin mix-in-name {
+  property: value;
+  property: value;
+  you get the: picture;
+}
+
+This is how you call it:
+
+.some-class {
+  @include mix-in-name;
+}
+
+Mixins accept varialbes as well as default values.  Here's an example with both:
+
+here's how you write it:
+
+@mixin mix-in-name ($var: default) {
+  property: value;
+  property: value;
+  you get the: picture;
+}
+
+here's how you call it:
+
+.some-class {
+  @include mix-in-name (argument);
+}
+
+if it has a default, you don't have to pass it an argument.  if you use the mixin in multiple places, the ones you pass an argument to will use that argument, the ones you don't will use the default.

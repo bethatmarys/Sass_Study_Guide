@@ -27,6 +27,8 @@
   * _Youtube series: Codecourse: How to make your CSS awesome with Bourbon, Neat, Bitters and Refills!  https://www.youtube.com/watch?v=8ItNE_DX6Cc ._
 
 * _At least one @mixin of your own_
+  * _Resource: Learn SASS in 5 minutes - Part 4 by Allesandro Castellani (youtube)_
+  * _Resource: my mix in notes, included in this project folder as a plain text file._
 
 * _Page is responsive (at least one breakpoint) using Sass-style media queries and/or the Neat grid_
   * _Resource: Landon Schropp's 'Write Better Media Queries with Sass' (weekend homework)_
